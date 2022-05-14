@@ -50,7 +50,7 @@ public class ProblemGenerator {
             if (operationValue == 0 || operationValue == 1) {
                 firstNumber = random.nextInt(21);
                 secondNumber = random.nextInt(20 - firstNumber);
-                if (operationValue == 0) {
+                if (operationValue == 1) {
                     operationMark = "+";
                     acceptAnswer = firstNumber + secondNumber;
                     problemString = firstNumber + operationMark + secondNumber;
